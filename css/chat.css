@@ -1,0 +1,46 @@
+.chats-body {
+  padding: 0px;
+}
+
+.chats-body .header,
+.chats-body .status-bar {
+  padding: 0px 20px;
+}
+.chat {
+  min-height: 100vh;
+  background-image: url("../images/chatBG.png");
+}
+
+.chat__write {
+  position: fixed;
+  width: 80%;
+  bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fcfcfc;
+  padding: 0px 20px;
+  border-radius: 40px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
+.chat__write-column i {
+  font-size: 22px;
+}
+.chat__write-column:nth-child(2) {
+  width: 80%;
+}
+.chat__write-column input {
+  padding: 20px 10px;
+  width: 100%;
+  border: none;
+  font-size: 14px;
+}
+
+.chat__write-column input:focus {
+  outline: none;
+}
